@@ -1,0 +1,304 @@
+.file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100%;
+}
+
+.menu {
+    list-style-type: none;
+    color: black;
+    padding: 15px;
+    position: relative;
+    height: 70px;
+    margin-top: 15px;
+}
+
+.menu li {
+    color: black;
+}
+
+.menu-list {
+    display: inline;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.no {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu {
+    list-style-type: none;
+    position: absolute;
+    background-color: white;
+    padding: 0px;
+    line-height: 40px;
+    inline-size: 200px;
+    left: 145px;
+    top: 37px;
+    display: none;
+    z-index: 1;
+}
+
+.menu-list:hover .submenu {
+    display: block;
+}
+
+.submenu1 {
+    list-style-type: none;
+    position: absolute;
+    padding: 0px;
+    background-color: white;
+    line-height: 40px;
+    inline-size: 200px;
+    left: 300px;
+    top: 37px;
+    display: none;
+    z-index: 1;
+}
+
+.submenu2 {
+    list-style-type: none;
+    position: absolute;
+    padding: 0px;
+    background-color: white;
+    line-height: 40px;
+    inline-size: 200px;
+    left: 500px;
+    top: 37px;
+    display: none;
+    z-index: 1;
+}
+
+.submenu3 {
+    list-style-type: none;
+    position: absolute;
+    padding: 0px;
+    background-color: white;
+    line-height: 40px;
+    inline-size: 200px;
+    left: 600px;
+    top: 37px;
+    display: none;
+    z-index: 1;
+}
+
+.submenu4 {
+    list-style-type: none;
+    position: absolute;
+    padding: 0px;
+    background-color: white;
+    line-height: 40px;
+    inline-size: 200px;
+    right: 10px;
+    top: 20px;
+    display: none;
+    z-index: 1;
+}
+.submenu li{
+    border-bottom: 1px solid rgb(209, 198, 198);
+    padding:8px;
+}
+.submenu1 li{
+    border-bottom: 1px solid rgb(209, 198, 198);
+    padding:8px;
+}
+.submenu2 li{
+    border-bottom: 1px solid rgb(209, 198, 198);
+    padding:8px;
+}
+.submenu3 li{
+    border-bottom: 1px solid rgb(209, 198, 198);
+    padding:8px;
+}
+.submenu4 li{
+    border-bottom: 1px solid rgb(209, 198, 198);
+    padding:8px;
+}
+
+.menu-list:hover .submenu1 {
+    display: block;
+}
+
+.menu-list:hover .submenu2 {
+    display: block;
+}
+
+.menu-list:hover .submenu3 {
+    display: block;
+}
+
+.menu-list:hover .submenu4 {
+    display: block;
+}
+
+.nan1 ul {
+    list-style-type: none;
+}
+
+.menu-list li:hover {
+    background-color: green;
+    color: white;
+}
+
+.menu-list li .no:hover {
+    color: white;
+}
+
+.icons {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.chairimg img {
+    width: 100%;
+}
+
+.chairimg {
+    border: 1px solid rgb(200, 185, 185);
+}
+
+.a {
+    position: relative;
+}
+.rpadding{
+    padding: 20px;
+}
+.catbox {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    height: 300px;
+    inline-size: 600px;
+    left: 23rem;
+    top: 4rem;
+    display: none;
+    overflow-x: hidden;
+}
+.catbox1 {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    line-height: 60px;
+    inline-size: 600px;
+    left: 23rem;
+    top: 6rem;
+    display: none;
+}
+.catbox2 {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    line-height: 60px;
+    inline-size: 600px;
+    left: 23rem;
+    top: 8rem;
+    display: none;
+}
+.chairimg h6{
+    margin-left: 15px;
+}
+.iconml{
+    margin-left: 220px;
+}
+.iconml1{
+    margin-left: 270px;
+}
+.iconml2{
+    margin-left: 247px;
+}
+.nav-item:hover .catbox {
+    display: block;
+}
+.nav-item:hover .catbox1 {
+    display: block;
+}
+.nav-item:hover .catbox2 {
+    display: block;
+}
+.nan1{
+    position: relative;
+}
+.abst_div{
+    position: absolute;
+    right: 18rem;
+    background-color: white;
+    width: 500px;
+    box-shadow: 3px 3px 3px rgb(225, 219, 219), 3px -3px 3px rgb(225, 219, 219),-3px 3px 3px rgb(225, 219, 219), -3px -3px 3px rgb(225, 219, 219);
+    transform: translate(30%,10%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    z-index: 1;
+    overflow-x: hidden;
+    height: 400px;
+}
+.rell:hover .abst_div{
+    transform: translate(35%, 0%) scale(1) ;
+    visibility: visible;
+}
+.abst_div1{
+    display: flex;
+    padding: 14px;
+}
+.abst_div2{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+.abst_div img{
+    width: 40%;
+    height: 100px;
+    padding: 8px;
+}
+.btn_abst{
+    padding: 14px;
+}
+.btn_abst button{
+    margin-bottom: 4px;
+}
+.rel_icon{
+    position: relative;
+}
+.abs_icon{
+    position: absolute;
+    bottom: 0.6rem;
+    left: 0.1rem;
+    background-color: green;
+    width: 18px;
+    border-radius: 53%;
+    text-align: center;
+    height: 20px;
+    color: white;
+}
+.abs_icon p{
+    margin-top: -3px;
+}
+@media screen and (max-width:900px) {
+    .nan1 {
+        display: none;
+    }
+
+    .menu li {
+        font-size: 15px;
+    }
+
+    .nan {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .file {
+        height: 5rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .file {
+        width: 100%;
+        margin-left: 0;
+    }
+}

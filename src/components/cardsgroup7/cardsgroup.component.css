@@ -1,0 +1,86 @@
+.pic img{
+    width: 100%;
+    height: 8rem;
+    border-radius: 10px;
+}
+.pichold{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(220, 213, 213);
+    margin-left: 2rem;
+    position: relative;
+}
+.pic1 img{
+    width: 40%;
+}
+.pic1 { 
+    position: absolute;
+    top:6rem;
+    left:2rem;
+}
+.pic2 img{
+    width: 40%;
+}
+.pic2{
+    position: absolute;
+    top:6rem;
+    left:2rem;
+}
+.pic3 img{
+    width: 40%;
+}
+.pic3{
+    position: absolute;
+    top:6rem;
+    left:2rem;
+}
+.pic4 img{
+    width: 40%;
+}
+.pic4{
+    position: absolute;
+    top:6rem;
+    left:2rem;
+    /* top: 131.5rem;
+    left: 57.5rem; */
+}
+.pic5 img{
+    width: 40%;
+}
+.pic5{
+    position: absolute;
+    top:6rem;
+    left:2rem;
+    /* top: 131.5rem;
+    left: 73rem; */
+}
+@media screen and (max-width:800px){
+    .on li button{
+        height: 50px;
+        width: 120px;
+    }
+    .viewall{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: none;
+    }
+    /* .viewall p{
+        font-size: 5px;
+    } */
+}
+@media screen and (max-width:500px){
+    .on li button{
+        height: 90px;
+        width: 70px;
+    }
+    .viewall{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: none;
+    }
+    /* .viewall p{
+        font-size: 5px;
+    } */
+}

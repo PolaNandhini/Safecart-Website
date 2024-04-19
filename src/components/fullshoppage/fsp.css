@@ -1,0 +1,18 @@
+.ddm{
+    display: flex;
+    justify-content: space-between;
+}
+.fspimg1 img{
+    width: 90%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.fspflex{
+    text-align: center;
+}
+.bluefsp{
+    color: rgb(46, 171, 234);
+}
+.gfsp{
+    color: green;
+}

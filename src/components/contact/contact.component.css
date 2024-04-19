@@ -1,0 +1,40 @@
+.contactdiv{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    padding: 1rem;
+}
+.contactdiv1{
+    display: flex;
+}
+.sizeoficon{
+    font-size: 20px;
+    width: 35px;
+    height: 40px;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.sizeoficon v1{
+    padding: 10px;
+}
+.v2{
+    margin-left: 10px;
+}
+.contactdivision{
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.sizeoficon:hover{
+    background-color: green;
+    color: white;
+}
+@media screen and (max-width:550px) {
+    .contactdivision{
+        width: 100vw;
+    }
+}

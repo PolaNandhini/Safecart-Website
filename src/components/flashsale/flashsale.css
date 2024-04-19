@@ -1,0 +1,19 @@
+.fsimg1 img{
+    width: 100%;
+}
+.fsimg1{
+    background-color: whitesmoke;
+    height: 240px;
+}
+.count div{
+    display: inline-block;
+    margin: 8px;
+    padding: 12px;
+    border: 1px solid green;
+}
+.count .s1{
+    background-color: antiquewhite;
+}
+.count .ml{
+    margin-left: 3.5rem;
+}

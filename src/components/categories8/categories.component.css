@@ -1,0 +1,38 @@
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrows span{
+    font-size: 25px;
+}
+.categorie{
+    background-color: white;
+    box-shadow: 0 -2px 2px rgb(191, 187, 187);
+}
+.pets{
+    background-color: rgb(246, 247, 249);
+    border-radius: 54%;
+    width: 80%;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pets img{
+    width: 100%;
+}
+.dis{
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+.col_padding{
+    padding: 10px;
+}
+@media screen and (max-width:300px) {
+    .arrows{
+        display: none;
+    }
+}

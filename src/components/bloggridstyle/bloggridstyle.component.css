@@ -1,0 +1,26 @@
+.bgsdiv{
+    background-color: rgb(224, 222, 222);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgsimg{
+    background-color: whitesmoke;
+}
+.bgsimg1 img{
+    height: 36vh;
+    width: 26vw;
+}
+.bgstext h3{
+    font-weight: 700;
+}
+.bgstext button{
+    border: 1px solid green;
+    border-radius: 18px;
+    color: green;
+}
+.bgstext button:hover{
+    background-color: green;
+    color: white;
+}

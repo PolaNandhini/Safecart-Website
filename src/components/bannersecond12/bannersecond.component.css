@@ -1,0 +1,125 @@
+.bannerr1{
+    width: 100%;
+    height: 13rem;
+    background-color: rgb(106, 218, 246);
+    margin-bottom: 1rem;  
+    border-radius: 10px;
+}
+.bannerr2{
+    width: 100%;
+    height: 13rem;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.bannerr3{
+    width:55%;
+    background-color: rgb(196, 235, 245);
+    height: 26.5rem;
+    border-radius: 10px;
+}
+.ban{
+    margin-left: 3rem;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+    /* margin-left: 5.9rem; */
+}
+.seccdiv{
+    
+    width: 30%;
+    margin: 2rem;
+}
+.imagee img{
+     width: 100%;    
+}
+.img2{
+    width: 50%;
+}
+.secbann{
+    padding: 30px;
+   
+}
+.imgg3 img{
+    width: 80%;
+}
+.roww{
+    display:flex;
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li{
+    padding: 10px;
+}
+.qn{
+    margin-left: 3rem;
+}
+.qn button{
+    background-color: blue;
+    height: 40px;
+}
+.nailimg img{
+    width: 95%;
+}
+.list1{
+    display: flex;
+    justify-content: space-between;
+}
+.list1 ul{
+    list-style-type: none;
+    display: flex;
+}
+.list1 ul li{
+    padding: 1rem;
+}
+.bj,.h3{
+    padding: 15px;
+}
+@media screen and (max-width:2200px){
+    .bannerr1 h5{
+        font-size: 14px;
+    }
+    .bannerr1 h4{
+        font-size: 14px;
+    }
+    .imagee img{
+       height: 200px;
+    }
+    .nailimg img{
+        height: 200px;
+    }
+    .bannerr2 h3{
+        font-size: 18px;
+    }
+    .imgg3 img{
+        height: 400px;
+    }
+}
+@media screen  and (max-width:840px){
+    .maindiv{
+        display: block;
+        margin-left: 5px;
+    }
+    .bannerr3{
+        width: 100%;
+        margin: 0;
+    }
+    .seccdiv{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .banner1{
+        margin-left: 2px;
+    }
+    .bannerr2 .h3{
+       margin-top: 50px;
+    }
+    .bannerr1 .bj{
+        margin-top: 40px;
+    }
+}

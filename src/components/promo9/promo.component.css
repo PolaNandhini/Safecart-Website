@@ -1,0 +1,18 @@
+.promomain {
+    background-color: white;
+    height: 14rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(215, 212, 212), 2px -2px 3px rgb(215, 212, 212), -2px 2px 3px rgb(215, 212, 212), -2px -2px 3px rgb(215, 212, 212);
+    display: flex;
+    align-items: center;
+}   
+
+.promo1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.content {
+    margin-left: 0.5rem;
+}

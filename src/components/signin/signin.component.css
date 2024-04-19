@@ -1,0 +1,84 @@
+.signindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1{
+    background-color: whitesmoke;
+    width: 34vw;
+    height: 70vh;
+    padding: 50px;
+}
+.s1 button{
+    background-color: rgb(44, 109, 44);
+    color: white;
+}
+.s1 button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.checkandfp{
+    display: flex;
+    justify-content: space-between;
+}
+.or{
+    background-color: white;
+    width: 10%;
+    padding: 10px;
+}
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iconborder span{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.iconborder span:hover{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width:1150px) {
+    .s1{
+        width: 50vw;
+        height: 80vh;
+    }
+    .iconborder{
+        display: contents;
+    }
+    .or{
+        background-color: whitesmoke;
+    }
+}
+@media screen and (max-width:740px) {
+    .s1{
+        width: 90vw;
+        height: 80vh;
+    }
+    .iconborder{
+        display: contents;
+    }
+    .or{
+        background-color: whitesmoke;
+    }
+}
+@media screen and (max-width:360px) {
+    .s1{
+        width: 95vw;
+        height: 90vh;
+    }
+    .iconborder{
+        display: contents;
+    }
+    .or{
+        background-color: whitesmoke;
+    }
+    .checkandfp{
+        display: block;
+        text-align: center;
+    }
+}

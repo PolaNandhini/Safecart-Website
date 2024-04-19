@@ -1,0 +1,70 @@
+.hspd1 img{
+    width: 100%;
+    height: 40rem;
+    padding: 10px;
+}
+.hspd1{
+    background-color: rgb(224, 220, 214);
+    width: 90%;
+}
+.hspd_img1{
+    background-color: antiquewhite;
+    width: 60%;
+}
+.hspd_img1 img{
+    width: 100%;
+    padding: 8px;
+}
+.hspd_flex{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+}
+.hspd_img2 img{
+    width: 90%;
+    border: 1px solid rgb(218, 212, 212);
+    padding: 10px;
+}
+.hspd_div{
+    border: 1px solid rgb(179, 171, 171);
+}
+.heels_img img{
+    width: 30%;
+    margin-left: 6rem;
+}
+.hspd_bdr h4{
+    margin-left: 6rem;
+}
+.hspd_bdr h5{
+    margin-left: 4rem;
+}
+.hspd_bdr p{
+    margin-left: 6rem;
+}
+.hspd_btn{
+    margin-left: 4rem;
+}
+.hspd_bdr{
+    padding: 15px 0px 15px 0px;
+}
+.sh2{
+    border: 1px solid rgb(212, 200, 200);
+    height: 150px;
+    padding: 10px;
+}
+.hspd_span{
+    margin: 4px;
+}
+.hspd_div2{
+    border: 1px solid rgb(189, 180, 180);
+}
+.hspd_div22{
+    padding: 10px;
+}
+.hspd_img3 img{
+      width: 100%;
+}
+.hspd_content{
+    text-align: center;
+}

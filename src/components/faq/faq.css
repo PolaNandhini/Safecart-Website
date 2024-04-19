@@ -1,0 +1,15 @@
+.faqdiv h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    font-size: 130px;
+    text-transform: uppercase;
+}
+.faqdiv{
+    width: 50%;
+    margin-left: 15rem;
+    margin-top: 15rem;
+}
+.textdecor{
+    color: rgb(102, 94, 94);
+    text-decoration: none;
+}

@@ -1,0 +1,104 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.topp1 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 3.3rem;
+}
+.topp2 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 3rem;
+}
+.topp1 li{
+    list-style-type: none;
+}
+.topp2 li{
+    list-style-type: none;
+}
+.top1 li a{
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.topp2 li a{
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.group{
+    background-color: rgb(49, 79, 49);
+    margin-top: 0;
+}
+.menuu{
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content:space-between ;
+    width: 30px;
+    height: 21px;
+}
+.menuu .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.noo{
+    color: white;
+    text-decoration: none;
+}
+.noo button{
+    margin-top: 1px;
+}
+.top1 li :hover{
+    text-decoration: underline;
+    color: rgb(153, 127, 219);   
+}
+.topp2 li :hover{
+    text-decoration: underline; 
+    color: white;  
+}
+.bn{
+    margin-top: 8px;
+}
+.nav-item .bn:hover{
+    color: black;
+}
+@media screen and (max-width:830px) {
+    .menuu{
+        display: flex;
+    }
+    .topp2{
+        width: 100%;
+    }
+    .top{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .topp2 ul{
+        width: 100%;
+        flex-direction: column;
+        display: none;
+    }
+    .topp2 li{
+        text-align: center;
+    }
+    .topp2 li a{
+        padding: 0.5rem 1rem;
+    }
+    .topp2.active{
+        display: flex;
+    }
+    .topp1 ul{
+        margin-left: 0;
+    }
+}

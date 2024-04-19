@@ -1,0 +1,46 @@
+.signupdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.su1{
+    background-color: whitesmoke;
+    width: 34vw;
+    height: 800px;
+    padding: 50px;
+}
+h6{
+    display: inline;
+}
+.block{
+    display: flex;
+    justify-content: center;
+}
+.su1 button:hover{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+.msg_clr{
+    color: red;
+}
+@media screen and (max-width:890px) {
+            .su1{
+                width: 50vw;
+            }
+}
+@media screen and (max-width:670px) {
+            .su1{
+                width: 100vw;
+            }
+}
+@media screen and (max-width:380px) {
+            .su1{
+                width: 100vw;
+                height: 100vh;
+            }
+            .block{
+                display: block;
+                text-align: center;
+            }
+}

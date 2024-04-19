@@ -1,0 +1,52 @@
+.dashboarddiv{
+    background-color: rgb(224, 222, 222);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.db_ul ul {
+    list-style-type: none;
+}
+
+.db_ul ul li {
+    padding: 12px;
+    border: 1px solid rgb(235, 231, 231);
+    background-color: whitesmoke;
+}
+.db_div1{
+    height: 600px;
+}
+.db_div2{
+    display: flex;
+}
+.db_div3{
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px;
+}
+.cal_div{
+    background-color: rgb(69, 68, 67);
+    height: 65px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid rgb(61, 60, 60);
+    box-shadow: 5px 5px 5px rgb(84, 83, 83),-5px 5px 5px rgb(84, 83, 83),5px -5px 5px rgb(84, 83, 83),-5px -5px 5px rgb(84, 83, 83);
+}
+.cal{
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
+.db_color{
+    color: white;
+}
+.table-bdr{
+    padding: 10px;
+}

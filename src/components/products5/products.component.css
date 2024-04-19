@@ -1,0 +1,71 @@
+.productscontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1 img{
+    width: 100%;
+    background-color: rgb(232, 198, 153);
+}
+.p2{
+    display: grid;
+}
+.p2 button{
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.p2 .span{
+    text-decoration: line-through;
+    color: #999999;
+}
+.btnn{   
+    display: flex;
+}
+.btnn .bt{
+    border-radius: 50%;
+    width: 10%;
+    border: 2px solid green;
+    color: green;
+}
+.btnn .bt:hover{
+    background-color: rgb(79, 147, 79);
+    color: white;
+}
+.p2 .bhover:hover{
+    background-color: rgb(79, 147, 79);
+}
+.p2 .bhover .link_style:hover{
+    color: white;
+}
+.p-relative{
+    position: relative;
+}
+.product-percent{
+    position: absolute;
+    background-color: rgb(56, 175, 214);
+    width: 20%;
+    color: white;
+    top: 10px;
+    right: 12px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.link_style{
+    color: green;
+    text-decoration: none;
+}
+.wishlist-popup{
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 25px;
+    position: fixed;
+    top: 20px;
+    right: 200px;
+}
+.wishlist-popup .svg{
+    color: deeppink;
+    margin-right: 5px;
+}

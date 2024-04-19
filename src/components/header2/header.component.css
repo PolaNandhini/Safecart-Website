@@ -1,0 +1,102 @@
+.container1-fluid{
+    /* background-color:blue; */
+    width: 90%;
+    /* margin-left: 4rem; */
+}
+
+.container1-fluid img{
+    width: 50%;
+    
+}
+
+.box{
+    display: flex;
+}
+.box input{
+    border-radius: 0.2rem;
+}
+.box button{
+    border-radius: 0.2rem;
+    line-height: 38px;
+   
+}
+.boxx{
+    display: flex;
+}
+.boxx span{
+    font-size: 30px;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxxp{
+    color: black;
+    text-decoration-line: none;
+    margin-top: 20px;
+}
+.box1 img{
+    margin-left: 4rem;
+}
+@media screen and (max-width:752px) {
+    .container1-fluid .fluid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:592px) {
+    .container1-fluid .fluid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxx span{
+        margin-left: 7.5rem;
+    }
+    .box1 img{
+        display: none;
+    }
+    .box input{
+        margin-left: 20px;
+    }
+    .boxx{
+        margin-left: 5rem;
+    }
+}
+@media screen and (max-width:450px) {
+    .container1-fluid .fluid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxx span{
+        margin-left: 7.5rem;
+    }
+    .box1 img{
+        display: none;
+    }
+    .box input{
+        margin-left: 20px;
+    }
+    .boxx{
+        margin-left: 2rem;
+    }
+}
+@media screen and (max-width:370px) {
+    .container1-fluid .fluid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxx span{
+        margin-left: 7.5rem;
+    }
+    .box1 img{
+        display: none;
+    }
+    .box input{
+        margin-left: 20px;
+    }
+    .boxx{
+        margin-left: 0px;
+    }
+}

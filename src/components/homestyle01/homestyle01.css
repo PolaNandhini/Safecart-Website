@@ -1,0 +1,258 @@
+.hsimg img{
+    margin-left: 62rem;
+    height: 500px;
+}
+.hs{
+    background-color: rgb(230, 230, 58);
+    height: 600px;
+}
+.hstext{
+    margin-bottom: 8rem;
+    margin-right: 39rem;
+}
+.hstext h1,.hstext h3{
+    color: black;
+}
+.hstext h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.nnn .nn{
+    border: 1px solid black;
+}
+.nnn .nn:hover{
+    border: 1px solid black;
+    color: white;
+    background-color: green;
+}
+.hsimglist img{
+    width: 100%;
+}
+.hsimglist p{
+    text-align: center;
+}
+.hs1{
+    background-color: whitesmoke;
+    display: flex;
+}
+.hs2{
+    width: 15%;
+    height: 200px;
+    margin: 30px;
+}
+.hscontainer1{
+    background-color: aqua;
+    display: flex;
+}
+.hspart{
+    background-color: aquamarine;
+    height: 300px;
+    width: 20%;
+}
+.secimg1 img{
+    width: 100%;
+}
+.q1 img{
+    width: 100%;
+    position: relative;
+}
+.hsrow{
+    border: 1px solid rgb(244, 226, 226);
+    margin: 22px;
+    position: relative;
+}
+.spantxt{
+    font-size: 20px;
+    font-weight: 700;
+}
+.hovericon{
+    background-color: whitesmoke;
+    position: absolute;
+    opacity: 0;
+    translate: 170px -300px;
+    transition: transform 0.3s;
+    margin: 2px;
+}
+.hsrow:hover .hovericon{
+    opacity: 1;
+    transform: translate(-30px,0px);
+}
+.hovericon span{
+    padding: 10px;
+    display: block;
+}
+.hovericon1{
+    background-color: whitesmoke;
+    position: absolute;
+    opacity: 0;
+    translate: 170px -240px;
+    transition: transform 0.6s;
+    margin: 2px;
+}
+.hovericon1 span{
+    padding: 10px;
+    display: block;
+}
+.hsrow:hover .hovericon1{
+    opacity: 1;
+    transform: translate(-30px,0px);
+}
+.hovericon2{
+    background-color: whitesmoke;
+    position: absolute;
+    opacity: 0;
+    translate: 170px -180px;
+    transition: transform 1s;
+    margin: 2px;
+}
+.hovericon2 span{
+    padding: 10px;
+    display: block;
+}
+.hsrow:hover .hovericon2{
+    opacity: 1;
+    transform: translate(-30px,0px);
+}
+.ban1{
+    background-color: rgba(245, 245, 105,0.4);
+    display: flex;
+    height: 200px;
+    border-radius: 10px;
+}
+.ban2{
+    background-color: rgba(58, 187, 238,0.4);
+    display: flex;
+    height: 200px;
+    border-radius: 10px;
+}
+.ban3{
+    background-color: rgba(138, 244, 209,0.4);
+    display: flex;
+    height: 200px;
+    border-radius: 10px;
+}
+.ban1img img{
+    width: 100%;
+    height: 200px;
+}
+.ban2img img{
+    width: 100%;
+    height: 200px;
+}
+.ban3img img{
+    width: 100%;
+    height: 200px;
+}
+.hsppimg1 img{
+    width: 80%;
+    background-color: whitesmoke;
+}
+.hsppimg2 img{
+    width: 98%
+}
+.hsppimg3 img{
+    width: 98%;
+}
+.hsppimg2{
+    width: 45%;
+}
+.hsppimg3{
+    width: 58%;
+}
+.flexitem1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(232, 223, 223);
+    position: relative;
+}
+.hsicon{
+    background-color: whitesmoke;
+    position: absolute;
+    opacity: 0;
+    translate: -10px -40px;
+    transition: transform 0.3s;
+    margin: 2px;
+    display: block;
+}
+.flexitem1:hover .hsicon{
+    opacity: 1;
+    transform: translate(-30px,0px);
+}
+.hsicon span{
+    padding: 5px;
+    display: block;
+}
+.hsicon1{
+    background-color: whitesmoke;
+    position: absolute;
+    opacity: 0;
+    translate: -10px 0px;
+    transition: transform 0.6s;
+    margin: 2px;
+    display: block;
+}
+.flexitem1:hover .hsicon1{
+    opacity: 1;
+    transform: translate(-30px,0px);
+}
+.hsicon1 span{
+    padding: 5px;
+}
+.hsicon2{
+    background-color: whitesmoke;
+    position: absolute;
+    opacity: 0;
+    translate: -10px 35px;
+    transition: transform 1s;
+    margin: 2px;
+    display: block;
+}
+.flexitem1:hover .hsicon2{
+    opacity: 1;
+    transform: translate(-30px,0px);
+}
+.hsicon2 span{
+    padding: 5px;
+    display: block;
+}
+.ppimg img{
+    width: 100%;
+}
+.pppdiv{
+    border: 1px solid rgb(238, 225, 225);
+}
+.bssimg img{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+.bss1{
+    border: 1px solid   rgb(238, 225, 225);
+    position: relative;
+    margin: 0px;
+    border-radius: 10px;
+}
+.bsspic img {
+    position: absolute;
+    width: 30%;
+    top: 4rem;
+    left: 6.5rem;
+}
+.phoneimg img{
+    height: 500px;
+    width: 50%;
+}
+.sgimg img{
+    height: 200px;
+    width: 100%;
+}
+.sgdiv{
+    border: 1px solid  rgb(238, 225, 225);
+}
+.ban1padding{
+    padding: 0px 10px 10px 20px ;
+}
+.ppimgh5 h5{
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.basdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+.basdiv1{
+    width: 40vw;
+    height: 90vh;
+    background-color: whitesmoke;
+}
+.padding-inp{
+    padding: 20px;
+}

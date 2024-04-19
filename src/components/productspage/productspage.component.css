@@ -1,0 +1,241 @@
+.ppdiv {
+    background-color: rgb(224, 222, 222);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ppdiv p {
+    margin-left: 2rem;
+}
+
+.sidediv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.sidedivtop {
+    width: 70%;
+    /* background-color: antiquewhite; */
+    margin-left: 1rem;
+}
+
+.end {
+    display: flex;
+}
+
+.sidebottom {
+    /* background-color: aqua; */
+    width: 65%;
+}
+
+.imgpic img {
+    width: 100%;
+}
+
+.subimg {
+   
+    text-align: center;
+}
+.subimg h4{
+    font-weight: 600;
+}
+.subimg h5 {
+    color: rgb(108, 165, 108);
+}
+
+del {
+    color: gray;
+}
+
+.sideimg {
+    width: 90%;
+    height: 58%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-left: 4px;
+}
+
+#color {
+    color: green;
+    font-weight: 700;
+}
+
+.sec {
+    display: flex;
+}
+
+.rightside {
+    /* background-color: pink; */
+    width: 25%;
+    margin-left: 2rem;
+    
+}
+
+.items {
+    border: 1px solid black;
+}
+
+.visit {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.visit p,
+.visit span {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.categories {
+    padding: 1rem;
+}
+
+.green {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+}
+
+.blue {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+}
+
+.black {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+
+.red {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+}
+
+.colors {
+    display: flex;
+}
+
+.child {
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.subimg p {
+    text-align: center;
+}
+
+.sizes button {
+    border: 1px solid black;
+}
+
+.check span {
+    color: yellow;
+}
+
+.bdr {
+    color: yellow;
+}
+
+.padding {
+    padding: 0.5rem;
+}
+
+.borandmenu {
+    display: flex;
+}
+
+.borandmenu span {
+    font-size: 1.5rem;
+    padding: 5px 8px;
+}
+.borderall1{
+    background-color: whitesmoke;
+}
+.borderall2{
+    background-color: rgb(24, 81, 24);
+    color: white;
+}
+.background {
+    background-color: whitesmoke;
+}
+
+.imgpic img {
+    border-radius: 15px;
+    margin-left: 4px;
+}
+.p2-relative{
+    position: relative;
+}
+.heartticon{
+    background-color: white;
+    margin: 5px;
+}
+.heartticon:hover{
+    background-color: green;
+    color: white;
+}
+.product2-percent{
+    position: absolute;
+    background-color: rgb(56, 175, 214);
+    width: 20%;
+    color: white;
+    top: 10px;
+    right:10px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.product2-na{
+    position: absolute;
+    background-color: rgb(39, 195, 39);
+    width: 50%;
+    color: white;
+    border-radius: 5px;
+    top: 40px;
+    right:13px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.fficons1 {
+    position: absolute;
+    translate: 30px -90px;
+    transition: transform 0.6s;
+    opacity: 0;
+    display: flex;
+}
+.p2-relative:hover .fficons1{
+    transform: translate(-30px, -90px);
+    opacity: 1;
+}
+@media screen and (max-width:1100px) {
+    .sizes{
+        display: grid;
+    }
+    .sec{
+        display: block;
+    }
+    .sidedivtop{
+        width: 90vw;
+    }
+    .categories{
+        width: 90vw;
+    }
+    .items{
+        width: 90vw;
+    }
+    .imgpic img{
+        width: 100%;
+    }   
+}
+@media screen and (max-width:600px) {
+    .sidediv1{
+        display: block;
+    }
+}

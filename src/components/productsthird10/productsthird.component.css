@@ -1,0 +1,44 @@
+.productscontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tabs{
+    width: 35rem;
+}
+.tabs ul li{
+    display: inline;
+    padding: 3px;
+}
+.img1 img{
+    width: 100%;
+    background-color: rgb(232, 198, 153);
+}
+.p2{
+    display: grid;
+}
+.p2 button{
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.btnn1 .bt1{
+    border-radius: 50%;
+    width: 10%;
+}
+.span{
+    text-decoration: line-through;
+    color: rgb(172, 164, 164);
+}
+.btnn1 .bt1:hover{
+    background-color: rgb(79, 147, 79);
+}
+.p2 .bhover1:hover{
+    background-color: rgb(79, 147, 79);
+}
+.productthird .tabs ul{
+    list-style-type: none;
+}
+.btnn1{
+    display: flex;
+}

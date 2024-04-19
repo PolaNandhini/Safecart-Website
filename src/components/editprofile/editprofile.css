@@ -1,0 +1,30 @@
+.ep_div {
+    background-color: whitesmoke;
+    width: 30%;
+    height: 400px;
+    margin: 70px 100px 20px 540px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(189, 179, 179),
+        3px -3px 3px rgb(189, 179, 179),
+        -3px 3px 3px rgb(189, 179, 179),
+        -3px -3px 3px rgb(189, 179, 179);
+}
+
+.ep1 {
+    padding: 20px;
+}
+
+.popup_profile {
+    color: white;
+    background-color: #35dc67;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    position: fixed;
+    top: 45px;
+    right: 700px;
+}
+.svg1{
+    color: white;
+    font-size: 25px;
+}

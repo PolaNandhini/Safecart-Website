@@ -1,0 +1,73 @@
+.aboutdiv{
+    background-color: rgb(224, 222, 222);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 2rem;
+}
+.aboutdiv p{
+    margin-left: 2rem;
+}
+.aboutrow{
+    margin-top: 100px;
+}
+.aboutrow h2{
+    font-weight: 800;
+}
+.abdiv1{
+    display: flex;
+}
+.truck{
+    font-size: 3rem;
+    color: rgb(69, 102, 69);
+}
+.ptag p{
+    font-size: 0.8rem;
+    color:rgb(109, 105, 105) ;
+}
+.ptag h4{
+    font-weight: 700;
+}
+.para{
+    background-color: gainsboro;
+    border-radius: 8px;
+    margin: 0;
+}
+.abcard1{
+    background-color: white;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 8px;
+    position: relative;
+    margin-left: 1rem;
+}
+.abcard1:first-child{
+    margin-left: 0;
+}
+.picture{
+    position: absolute;
+    left: 37%;
+    top:35%
+}
+.flex{
+    display: flex;
+    
+}
+@media screen and (max-width:1200) {
+    .aboutimg3{
+        margin-left: 10vw;
+    }
+}
+@media screen and  (max-width: 540px){
+    .aboutimg3 img{
+        width:100vw;
+    }
+    .aboutimg2 img{
+        width:100vw;
+    }
+    .aboutimg1 img{
+        width:100vw;
+    }
+}

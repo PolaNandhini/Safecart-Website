@@ -1,0 +1,36 @@
+.watch{
+    display: flex;
+}
+.matter{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.matter button{
+    border: 1px solid green;
+    border-radius: 18px;
+    color: green;
+}
+.matter button:hover{
+    background-color: green;
+    color: white;
+}
+.blogside input{
+    height: 37px;
+}
+.blogside{
+    position: relative;
+}
+.jn{
+    position: absolute;
+    top: 0;
+    left:10rem;
+    border-radius: 0px;
+}
+.lp img{
+    width: 100%;
+}
+.spans span{
+    border: 1px solid rgb(199, 185, 185);
+    padding: 10px;
+    border-radius: 5px;
+}

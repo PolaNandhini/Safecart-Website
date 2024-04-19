@@ -1,0 +1,15 @@
+.contains{
+    margin-left: 30px;
+}
+.rr{
+    text-align: center;
+}
+.shad{
+    box-shadow: 0 -4px 4px black;
+}
+.contain{
+    overflow-x: hidden;
+}
+.contains img{
+    width: 20%;
+}
